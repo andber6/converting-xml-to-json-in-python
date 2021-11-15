@@ -8,7 +8,8 @@ import xmltodict
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
  
-# choose XML file to be converted from system
+# choose XML file to be
+# converted from your current system
 Tk().withdraw()
 filename = askopenfilename()
 print(filename)

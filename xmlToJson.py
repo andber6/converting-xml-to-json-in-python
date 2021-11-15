@@ -5,12 +5,18 @@
 # module provided by python
 import json
 import xmltodict
+from tkinter import Tk
+from tkinter.filedialog import askopenfilename
  
- 
+Tk().withdraw()
+filename = askopenfilename()
+print(filename)
 # open the input xml file and read
 # data in form of python dictionary
 # using xmltodict module
-with open("C:\GIT/testFiles/employee.xml") as xml_file:
+
+# with open("C:\GIT/testFiles/employee.xml") as xml_file:
+with open(filename) as xml_file:
      
     data_dict = xmltodict.parse(xml_file.read())
     xml_file.close()

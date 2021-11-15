@@ -1,5 +1,5 @@
-### pip install -r requirements.txt
+### 1. `pip install -r requirements.txt`
 
-### run with `python xmlToJson.py`
+### 2. specify folder location in py file
 
-### specify folder location in py file
+### 3. run with `python xmlToJson.py`
